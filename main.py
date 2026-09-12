@@ -680,14 +680,14 @@ if __name__ == "__main__":
     extra_metadata_in_explanation=True,
     llms={
         "default": GeneralLlm(
-            model="openrouter/openai/gpt-4o-mini",
+            model="openrouter/openrouter/free",
             temperature=0.3,
             timeout=40,
             allowed_tries=2,
         ),
-        "summarizer": "openrouter/openai/gpt-4o-mini",
+        "summarizer": "openrouter/openrouter/free",
         "researcher": "no_research",
-        "parser": "openrouter/openai/gpt-4o-mini",
+        "parser": "openrouter/openrouter/free",
     },
 )
 
