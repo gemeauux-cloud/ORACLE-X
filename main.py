@@ -680,14 +680,14 @@ if __name__ == "__main__":
     extra_metadata_in_explanation=True,
     llms={
         "default": GeneralLlm(
-            model="openrouter/nvidia/nemotron-3-ultra:free",
+            model="openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
             temperature=0.3,
             timeout=40,
             allowed_tries=2,
         ),
-        "summarizer": "openrouter/nvidia/nemotron-3-ultra:free",
+        "summarizer": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
         "researcher": "no_research",
-        "parser": "openrouter/nvidia/nemotron-3-ultra:free",
+        "parser": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
     },
 )
 
