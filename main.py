@@ -682,7 +682,7 @@ if __name__ == "__main__":
         "default": GeneralLlm(
             model="openrouter/google/gemma-4-26b-a4b-it:free",
             temperature=0.3,
-            timeout=40,
+            timeout=60,
             allowed_tries=2,
         ),
         "summarizer": "openrouter/google/gemma-4-26b-a4b-it:free",
